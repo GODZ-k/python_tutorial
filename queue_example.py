@@ -18,7 +18,7 @@ while True:
 
  elif c==2:
     if len(l)==0:
-      print("stack is empty ")
+      print("queue is empty ")
     else:
       print('''
       press 1 for delete the last element of the queue :
@@ -39,7 +39,7 @@ while True:
          l.remove(y)
          print(l)
         except:
-          print("Item not in the stack ")
+          print("Item not in the queue")
 
       elif x==3:
         del l[0]
