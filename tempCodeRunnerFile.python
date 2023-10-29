@@ -1,0 +1,4 @@
+
+adv="tanmay"
+# print("welcome"+ adv)
+print("welcome {adv}".format(adv))
